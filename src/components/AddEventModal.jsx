@@ -1,7 +1,7 @@
 import ModalWrapper from './ModalWrapper';
 import { MdClose } from 'react-icons/md';
 import { PrimaryButton, SecondaryButton } from './Button';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 const AddEventModal = ({ defaultDate, closeModal, addEvent }) => {
     const [eventName, setEventName] = useState('');

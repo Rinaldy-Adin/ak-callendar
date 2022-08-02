@@ -25,7 +25,7 @@ const EventItem = ({ name, id, handleUpdateEvent }) => {
     return (
         <div
             onClick={handleClick}
-            className='bg-[#5A9EC5] truncate w-full px-1 mb-1 md:px-2 py-1 md:py-[2px] text-white rounded-sm md:rounded text-[12px] text-base font-medium hover:cursor-pointer'
+            className='bg-[#5A9EC5] hover:bg-[#5494B8] active:bg-[#518EB0] truncate w-full px-1 mb-1 md:px-2 py-1 md:py-[2px] text-white rounded-sm md:rounded text-[12px] text-base font-medium hover:cursor-pointer'
         >
             {name}
         </div>

@@ -7,7 +7,7 @@ const AddEventBtn = ({ className, handleClick }) => {
             }
             onClick={handleClick}
         >
-            <h4 className='bg-[#E2E2E2] text-[#939393] px-2 rounded hidden md:block'>
+            <h4 className='bg-[#E2E2E2] hover:bg-[#D4D4D4] active:bg-[#CFCFCF] text-[#939393] px-2 rounded hidden md:block'>
                 +
             </h4>
         </button>
